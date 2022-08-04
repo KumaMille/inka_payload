@@ -6,15 +6,13 @@ const INKA_SITE_KEY = "3cA0XxFSp46cG0deupx0ryDrujm7geNG" //inkaDRM Site Key
 const INKA_SITE_ID = "JQ4I" // inkaDRM Site ID
 const INKA_IV = "0123456789abcdef" //inkaDRM AES 256 Encryption Initialization
 
-
-
 const KOLLUS_SECURITY_KEY= "milliemulti" //Kollus Account Key
 const KOLLUS_CUSTOM_KEY=  "a450ab355c98bed9bbec24645ee2476202339130ac67e24bc47d8b43280b6ecc" //Kollus Custom User Key
 const CLIENT_USER_ID=  "milliemulti"  // Client User ID
 const cid = "20220803-iar05f2c" // Multi DRM Contents ID, Kollus Upload File Key
 const mckey = "yjPxj2JQ"  // Kollus MediaContentKey
 
-
+const IS_ANDROID = true // false 면 IOS
 
 const drmType = IS_ANDROID ? "Widevine" : "FairPlay"
 const streamingType = IS_ANDROID? "dash" : "hls"
