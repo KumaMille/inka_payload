@@ -1,7 +1,7 @@
 {
   "name": "tokenmaker",
   "version": "1.0.0",
-  "description": "",
+  "description": "inka payload 만들기",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,14 @@
   "dependencies": {
     "crypto": "^1.0.1",
     "moment": "^2.29.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KumaMille/inka_payload.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KumaMille/inka_payload/issues"
+  },
+  "homepage": "https://github.com/KumaMille/inka_payload#readme"
 }
